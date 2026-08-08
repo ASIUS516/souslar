@@ -52,7 +52,7 @@ export default function App() {
       )}
 
       <Header siteName={settings.site_name} sections={sections} />
-      <About text={settings[about_${lang}]} enabled={!showSplash} />
+      <About text={settings[`about_${lang}`]} enabled={!showSplash} />
       <Catalog products={products} categories={categories} whatsapp={settings.whatsapp} />
       <Contact settings={settings} />
     </>
