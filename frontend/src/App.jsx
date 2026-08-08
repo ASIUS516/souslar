@@ -31,8 +31,7 @@ export default function App() {
       <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
         …
       </div>
-    );
-  }
+
 
   const sections = [
     { id: "about", label: t.about },
