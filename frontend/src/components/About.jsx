@@ -29,7 +29,7 @@ export default function About({ text, enabled = true }) {
     if (!started) return;
     setShown("");
     let i = 0;
-    const speed = 70;
+    const speed = 60;
     const interval = setInterval(() => {
       i++;
       setShown(text.slice(0, i));
